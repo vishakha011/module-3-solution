@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0;
+}
+
+#nav-header {
+    background-color: rgb(217, 212, 212) !important;
+}
+
+
+.menu-item {
+    border: none;
+    background-color: rgb(217, 212, 212);
+    border-radius: 0;
+    margin: 8px 16px;
+
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    
+    }
+}
+
